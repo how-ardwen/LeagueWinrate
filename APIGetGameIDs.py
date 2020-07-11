@@ -36,5 +36,3 @@ def getListOfGames(champID):
             gameList.append(gameID)
 
     return gameList
-
-print(getListOfGames(getChampID()))
