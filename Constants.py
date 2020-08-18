@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import requests
 import json
 
@@ -24,3 +25,7 @@ if getAccountID(accountIDInput) == 0:
     print("Unknown Summoner Name...")
 
 accountID = getAccountID(accountIDInput)
+=======
+accountID = insert
+token = insert
+>>>>>>> 383b34fc1db8c8a3370904ff3e0612f29d6e80cd
