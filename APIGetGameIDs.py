@@ -5,7 +5,7 @@ import Constants
 
 def getChampID():
     championName = input("Champion Name: ")
-    targetUrl = "http://ddragon.leagueoflegends.com/cdn/6.24.1/data/en_US/champion.json"
+    targetUrl = "http://ddragon.leagueoflegends.com/cdn/10.16.1/data/en_US/champion.json"
     response = requests.get(targetUrl)
 
     if response.status_code == 200:

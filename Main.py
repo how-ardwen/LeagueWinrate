@@ -12,8 +12,6 @@ def getRelativeWinrate():
     gameIDList = APIGetGameIDs.getListOfGames(champID)
     matchDetailsList = APIGetMatchDetails.getAllMatches(gameIDList, champID)
 
-    print(repr(matchDetailsList))
-
     shortBucket = SplitTimeBucket.filterMatchesByLength(matchDetailsList, SplitTimeBucket.GameLength.SHORT)
     medBucket = SplitTimeBucket.filterMatchesByLength(matchDetailsList, SplitTimeBucket.GameLength.MEDIUM)
     longBucket = SplitTimeBucket.filterMatchesByLength(matchDetailsList, SplitTimeBucket.GameLength.LONG)
