@@ -2,7 +2,7 @@
 import requests
 import json
 
-token = "RGAPI-dbe3a770-2a95-417c-b028-a629f8a15052"
+token = "YOUR_TOKEN_HERE"
 accountIDInput = input("Enter Summoner Name: ")
 
 def getAccountID(accountIDName):
